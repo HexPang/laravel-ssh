@@ -1,0 +1,16 @@
+{
+    "name": "hexpang/laravel-ssh",
+    "description": "SSH Client For Laravel.",
+    "keywords": ["ssh","laravel","ssh-client"],
+    "license": "MIT",
+    "homepage": "https://github.com/hexpang/laravel-ssh",
+    "authors": [
+        {
+            "name": "HexPang",
+            "email": "hexpang@jabstruse.com"
+        }
+    ],
+    "require": {
+
+    }
+}
