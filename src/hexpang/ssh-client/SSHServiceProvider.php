@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Providers;
+namespace hexpang\Providers;
 
-use App\Services\RemoteService;
+use hexpang\Services\SSHService;
 use Illuminate\Support\ServiceProvider;
 
 class SSHServiceProvider extends ServiceProvider

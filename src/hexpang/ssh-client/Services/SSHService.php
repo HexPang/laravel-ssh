@@ -6,7 +6,7 @@
  * Date: 16/8/23
  * Time: 21:05
  */
-namespace App\Services;
+namespace hexpang\Services;
 use Illuminate\Support\Facades\Facade;
 
 class SSHService extends Facade
