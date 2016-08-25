@@ -38,7 +38,6 @@ class SSHService extends Facade
     }
     public function Connect(){
         if(!$this->Ping($this->host,$this->port)){
-            Logger::Info('Ping Timeout.',5);
             return false;
         }
         $this->handle = @ssh2_connect($this->host,$this->port);
