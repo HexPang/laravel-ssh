@@ -10,7 +10,7 @@ SSH Client for laravel.
 
 Open **config/app.php** add for **aliases**
 
-> 'SSH' => App\Services\RemoteService::class,
+> 'SSH' => hexpang\Services\SSHService::class,
 
 ## Usage
 
