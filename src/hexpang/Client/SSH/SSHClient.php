@@ -47,12 +47,12 @@ class SSHClient extends Facade
         return true;
     }
     public function Authorize(){
-        if(!$handle) return false;
+        if(!$this->handle) return false;
         $ret = @ssh2_auth_password( $this->handle, $this->user, $this->password );
         return $ret;
     }
     function Execute($command){
-        if(!$handle) return false;
+        if(!$this->handle) return false;
         $stream = @ssh2_exec($this->handle, $command);
         if($stream){
             $errorStream = ssh2_fetch_stream($stream, SSH2_STREAM_STDERR);
