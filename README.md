@@ -1,15 +1,16 @@
 # SSH Client For Laravel
 SSH Client for laravel.
 
+## v0.5 moved to [ssh-client](https://github.com/HexPang/ssh-client)
+
+| Build Status |
+| ---- |
+| [![Build Status](https://circleci.com/gh/HexPang/laravel-ssh.png?circle-token=7b09b960cbb1ddff17c8d93ccf7db44834569514)]|
+
 v0.4 changed namespace and file directory
 
 If got error about class not found,try
 > *composer dump-autoload*
-
-| Build Status |
-| ---- |
-| [![Build Status](https://circleci.com/gh/HexPang/laravel-ssh.png?circle-token=7b09b960cbb1ddff17c8d93ccf7db44834569514)]() |
-
 
 ## Install With Composer
 > composer require hexpang/laravel-ssh
